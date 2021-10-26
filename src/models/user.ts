@@ -5,6 +5,6 @@ export type User = {
   id: number;
   name: string;
   balance: number;
-  groups?: Array<paymentGroup>;
-  friendList?: Array<friendList>;
+  groups: Array<paymentGroup>;
+  friendList: friendList;
 }

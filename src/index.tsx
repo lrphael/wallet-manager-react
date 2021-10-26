@@ -5,12 +5,16 @@ import './index.css';
 
 import { Provider } from "react-redux";
 import { store } from "./redux/store"
-import InputValue from './components/inputValue/InputValue';
+import SendMoney from './components/SendMoney/SendMoney';
+import AddFriend from './components/AddFriend/AddFriend';
+import CreateGroup from './components/CreateGroup/CreateGroup';
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <InputValue />
+      <SendMoney />
+      <AddFriend />
+      <CreateGroup />
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')

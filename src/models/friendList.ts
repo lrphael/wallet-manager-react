@@ -1,3 +1,3 @@
 export type friendList = {
-  userId: Array<number>
+  userIds: Array<number>
 }
