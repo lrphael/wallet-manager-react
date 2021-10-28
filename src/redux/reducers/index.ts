@@ -1,8 +1,10 @@
 import { combineReducers } from "redux";
-import operation from "./operation";
+import transaction from "./transaction";
+import user from "./user";
 
 const reducers = combineReducers({
-  wallet: operation
+  transaction: transaction,
+  user: user
 });
 
 export default reducers;
